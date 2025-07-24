@@ -17,7 +17,8 @@ export function NavbarDemo() {
   const navItems = [
     { name: "Features", link: "#features" },
     { name: "Pricing", link: "#pricing" },
-    { name: "Contact", link: "#contact" },
+    { name: "Contact", link: "/contact" },
+    { name: "Dashbord", link: "/dashboard" },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

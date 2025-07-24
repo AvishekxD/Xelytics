@@ -4,8 +4,6 @@ const Footer = () => {
     return (
         <footer className="bg-[var(--secondary3)] rounded-xl mb-12">
             <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
-                
-
                 <div className="flex justify-center items-center">
                         <img src="src/assets/favicons/android-chrome-192x192.png" alt=" Logo" className="w-8 h-8" />
                         <span className='font-medium'>Xelytics</span>
@@ -47,7 +45,7 @@ const Footer = () => {
                                     className="hover:fill-red-600 transition-all ease-in-out duration-300"
                                 />
                             </svg>
-                            by the <span className="font-semibold ml-1">Xelytics</span>
+                            by the <span className="font-semibold">Xelytics Team</span>
                         </div>
                     </li>
                     <li>
